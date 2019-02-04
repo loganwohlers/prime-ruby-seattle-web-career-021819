@@ -1,7 +1,11 @@
 def prime?(n)
   a=[1,2,3,4,5,6,7,8,9]
+  if(n<0)
+    n=n*-1
+  end
   a.each do |num|
-    if(n%num==0 && n!=num &&num!=1)
+    if (
+    elseif(n%num==0 && n!=num &&num!=1)
       return false
     end
   end
