@@ -7,6 +7,7 @@ def prime?(n)
   if (n==1)
     return false
   end
+  
   a.each do |num|
     if(n%num==0 && n!=num &&num!=1)
       return false
