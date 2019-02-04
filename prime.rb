@@ -3,8 +3,9 @@ def prime?(n)
   if(n<0)
     n=n*-1
   end
+  if(n==1)
+    return false
   a.each do |num|
-    if (
     elseif(n%num==0 && n!=num &&num!=1)
       return false
     end
