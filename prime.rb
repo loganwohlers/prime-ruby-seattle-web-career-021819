@@ -1,5 +1,5 @@
 def prime?(n)
-  a=[1,2,3,4,5,6,7,8,9]
+  a=[2,3,4,5,6,7,8,9]
   if(n<0)
     n=n*-1
   end
@@ -9,7 +9,7 @@ def prime?(n)
   end
   
   a.each do |num|
-    if(n%num==0 && n!=num && num!=1)
+    if(n%num==0 && n!=num)
       return false
     end
   end
